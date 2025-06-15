@@ -2,7 +2,6 @@ import React from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Guitar, Piano, Music, BookOpen, PenTool } from "lucide-react";
-
 export default function MusicLessonsSite() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-indigo-100 to-white p-6">
@@ -23,7 +22,7 @@ export default function MusicLessonsSite() {
         <Card className="shadow-xl">
           <CardContent className="p-6 text-center">
             <Music className="mx-auto text-indigo-600 mb-4" size={48} />
-            <h2 className="text-2xl font-semibold mb-2">Bass Lessons</h2>
+            <h2 className="text-2xl font-semibold mb-2"<Music ... />
             <p className="text-gray-600">Master rhythm, groove, and technique on bass guitar in a fun and supportive environment.</p>
           </CardContent>
         </Card>
